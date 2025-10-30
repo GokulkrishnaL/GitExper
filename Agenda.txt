@@ -1,0 +1,32 @@
+FrameWork:
+===============================
+
+TestCase-------- store all the tc's
+TestData------- excel store
+TestScript------- all backend java class are stored
+Reports------
+
+https://demowebshop.tricentis.com/
+=================================
+register
+login
+
+1. using Repository
+2. using Page Object Model
+===============================
+
+1. using Repository:
+Repository ----- save the properties file(webelement locator)
+
+steps: 
+==============
+1. create the properties file
+2.java class -- no main()
+ method 1= Read the properties file(id:gender-male)--return
+ method 2= find the webelemt
+ 
+ 
+3. Execute --TestNG
+driver--------Inheritance, method paraterized, constructors parameterized
+@Test
+  call the (method2)-----action
